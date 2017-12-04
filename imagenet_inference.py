@@ -2,7 +2,7 @@
 import time
 import tensorflow as tf
 import numpy as np
-from scipy.misc import imread
+from scipy.ndimage import imread
 from caffe_classes import class_names
 from alexnet import AlexNet
 
